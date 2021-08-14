@@ -1,13 +1,11 @@
 name: FreeRDP
 
 on: workflow_dispatch
-inputs:
-
+    inputs:
       time:
         description: 'VM Time (Seconds, Maximum 72 hours)'
         required: true
         default: "21600"
-        
 jobs:
   build:
 
